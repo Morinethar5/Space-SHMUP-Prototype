@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33722923099376396}
   - component: {fileID: 135693778427804460}
   - component: {fileID: 23996756875513744}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,9 +39,9 @@ GameObject:
   - component: {fileID: 4400753113132818}
   - component: {fileID: 54851264886272470}
   - component: {fileID: 114795971034890098}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 33875931814765856}
   - component: {fileID: 135690540381862964}
   - component: {fileID: 23447579167700110}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cockpit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,6 +209,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62a3005e4e32d7846b675d0175504141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  fireRate: 0.3
+  health: 10
+  score: 100
+  ________________________________: 0
+  bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  boundsCenterOffset: {x: 0, y: 0, z: 0}
 --- !u!135 &135690540381862964
 SphereCollider:
   m_ObjectHideFlags: 1
